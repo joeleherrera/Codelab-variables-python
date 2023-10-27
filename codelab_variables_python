@@ -1,0 +1,35 @@
+
+variable_int = 10
+variable_float = 3.14
+variable_boolean = True
+variable_str = "Hola"
+
+print(f'Un ejemplo de variable int podria ser: {variable_int}')
+print(f'Un ejemplo de variable float podria ser: {variable_float}')
+print(f'Un ejemplo de variable boolean podria ser: {variable_boolean}')
+print(f'Un ejemplo de variable str podria ser: {variable_str}')
+
+#Limite de enteros: No tiene un limite definido por el numero de bits en Python.
+#Limite de flotantes: Aproximadamente 15-17 digitos decimales en Python.
+
+print("Limite de enteros: No tiene un limite definido por el numero de bits en Python.")
+print("Limite de flotantes: Aproximadamente 15-17 digitos decimales en Python.")
+
+#Le pido al usuario ingresar el numero deseado
+n = input(("Ingrese un número: "))
+#Convierto el numero en entero
+n = int(n)
+#Proceso la operacion
+suma = (n*(n+1))//2
+print(f'El resultado de la suma de {n} multiplicado por ({n} + 1) divido entre 2 es igual a: {suma}')
+
+
+     
+Un ejemplo de variable int podria ser: 10
+Un ejemplo de variable float podria ser: 3.14
+Un ejemplo de variable boolean podria ser: True
+Un ejemplo de variable str podria ser: Hola
+Limite de enteros: No tiene un limite definido por el numero de bits en Python.
+Limite de flotantes: Aproximadamente 15-17 digitos decimales en Python.
+Ingrese un número: 10
+El resultado de la suma de 10 multiplicado por (10 + 1) divido entre 2 es igual a: 55
